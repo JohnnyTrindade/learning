@@ -5,7 +5,7 @@
 <body>
 <h1>Formulário PHP - Validação</h1>
 <hr>
-<form action="recebe_formulario.php" method="post">
+<form action="recebe_form_validacao.php" method="post">
     <label for="">Nome</label><br>
     <input type="text" name="nome"><br><br>
 
