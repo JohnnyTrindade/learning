@@ -5,16 +5,11 @@ $email = filter_input(INPUT_POST, 'email');
 $descricao = filter_input(INPUT_POST, 'descricao');
 
 var_dump('--FORM-DATA--', $nome, $email, $descricao);
-echo "<br>";
-
 
 $json = file_get_contents("php://input");
 $json = json_decode($json, true);
 
-var_dump('--JSON--', $json['nome']);
-echo "<br>";
-
-
+var_dump('--JSON--', $json);
 
 if (is_null($nome)) {
     $nome = $json['nome'] ?? null;
@@ -29,5 +24,3 @@ if (is_null($descricao)) {
 }
 
 var_dump('--FINAL--', $nome, $email, $descricao);
-
-echo "<br>";
