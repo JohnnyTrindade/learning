@@ -21,6 +21,13 @@ if (mysqli_connect_errno()) {
 
 $sql = "SELECT * FROM USER";
 
+foreach ($query = $mysqli->query($sql) as $user) {
+    echo "Name: ".$user['name']."<br>";
+}
+
+
+
+
 //$query = $mysqli->query($sql);
 //
 //while($data = $query->fetch_assoc()) {
@@ -29,16 +36,35 @@ $sql = "SELECT * FROM USER";
 //    echo "E-mail: ".$data['email'] . "<br><hr>";
 //}
 
-if ($query = $mysqli->query($sql)) {
+//if ($query = $mysqli->query($sql)) {
 //    $user = $query->fetch_all(MYSQLI_NUM); //Padrão
 //    $user = $query->fetch_all(MYSQLI_ASSOC);
-    $user = $query->fetch_all(MYSQLI_BOTH);
+//    $user = $query->fetch_all(MYSQLI_BOTH);
 //    var_dump($user);
 //    echo "email: ".$user[1]["email"];
 //    echo " * email: ".$user[1][2];
 
-    foreach ($user as $value) {
-        echo "name: ".$value["name"]."<br>";
-    }
-}
+//    foreach ($user as $value) {
+//        echo "name: ".$value["name"]."<br>";
+//    }
+
+//    $user = $query->fetch_array();
+
+//    while($user = $query->fetch_array()) {
+//        echo "Name: ". $user["name"] . "<br>";
+//    }
+
+//    $user = $query->fetch_row();
+//    var_dump($user);
+
+//    $user = $query->fetch_object();
+//    var_dump($user);
+//    echo $user->name."<br>";
+
+//    while($user = $query->fetch_object()) {
+//        echo "Name: ". $user->name . "<br>";
+//        echo "Email: ". $user->email . "<br>";
+//    }
+
+//}
 
