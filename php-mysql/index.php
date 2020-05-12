@@ -15,56 +15,18 @@ if (mysqli_connect_errno()) {
     exit;
 }
 
-//else {
-//    echo "Connection ok!";
-//}
+//$sql = "SELECT * FROM USER where id = {$_GET["id"]}";
 
-$sql = "SELECT * FROM USER";
-
-foreach ($query = $mysqli->query($sql) as $user) {
-    echo "Name: ".$user['name']."<br>";
-}
-
+$stmt = $mysqli->stmt_init();
+$stmt->prepare("SELECT * FROM USER WHERE id = ?");
+$stmt->bind_param("i", $_GET['id']);
+$stmt->execute();
+$stmt->bind_result($id, $name,$email);
+$stmt->fetch();
 
 
+echo "ID: " . $id . "<br>";
+echo "Name: " . $name . "<br>";
+echo "E-mail: " . $email . "<br>";
 
-//$query = $mysqli->query($sql);
-//
-//while($data = $query->fetch_assoc()) {
-//    echo "Id: ".$data['id'] . "<br>";
-//    echo "Name: ".$data['name'] . "<br>";
-//    echo "E-mail: ".$data['email'] . "<br><hr>";
-//}
-
-//if ($query = $mysqli->query($sql)) {
-//    $user = $query->fetch_all(MYSQLI_NUM); //Padrão
-//    $user = $query->fetch_all(MYSQLI_ASSOC);
-//    $user = $query->fetch_all(MYSQLI_BOTH);
-//    var_dump($user);
-//    echo "email: ".$user[1]["email"];
-//    echo " * email: ".$user[1][2];
-
-//    foreach ($user as $value) {
-//        echo "name: ".$value["name"]."<br>";
-//    }
-
-//    $user = $query->fetch_array();
-
-//    while($user = $query->fetch_array()) {
-//        echo "Name: ". $user["name"] . "<br>";
-//    }
-
-//    $user = $query->fetch_row();
-//    var_dump($user);
-
-//    $user = $query->fetch_object();
-//    var_dump($user);
-//    echo $user->name."<br>";
-
-//    while($user = $query->fetch_object()) {
-//        echo "Name: ". $user->name . "<br>";
-//        echo "Email: ". $user->email . "<br>";
-//    }
-
-//}
 
