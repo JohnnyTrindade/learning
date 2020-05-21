@@ -1,0 +1,1 @@
+INSERT INTO todo_db.tarefas (titulo, descricao) VALUES ('$title', '$body');
