@@ -1,0 +1,115 @@
+======Process 'nginx'======
+
+check process nginx with pidfile /var/run/nginx.pid
+group webserver
+start program = "/bin/systemctl start nginx" with timeout 30 seconds
+stop program  = "/bin/systemctl stop nginx"
+
+if failed
+host www.anhosefittings.com
+port 80
+protocol http
+#username "apache"
+#password "aPa@##@18969"
+and request "/"
+# for 3 times within 5 cycles
+# timeout 30 seconds
+# retry 2
+then alert
+
+if failed
+host www.anhosefittings.com
+port 443
+protocol https
+#username "apache"
+#password "aPa@##@18969"
+and request "/"
+and certificate valid > 30 days
+then alert
+
+if failed
+host www.anhosefittings.com
+port 443
+protocol https
+#username "apache"
+#password "aPa@##@18969"
+and request "/catalogsearch/result/?q=fitting"
+then alert
+
+if cpu > 40% for 2 cycles then alert
+if total cpu > 60% for 2 cycles then alert
+if total cpu > 80% for 5 cycles then restart
+if total memory usage > 1% for 10 cycles then alert
+#if mem > 2000 MB for 5 cycles then stop
+
+if 5 restarts within 10 cycles then timeout
+depends on php-fpm
+
+
+======File 'nginx-error'======
+
+check file nginx-error with path /var/log/nginx/error.log
+if match "^timed out" then alert
+
+======Process 'php-fpm'======
+
+check process php-fpm with pidfile /run/php/php7.2-fpm.pid
+group webserver
+start program = "/bin/systemctl start php7.2-fpm" with timeout 30 seconds
+stop program  = "/bin/systemctl stop php7.2-fpm"
+if cpu > 40% for 2 cycles then alert
+if total cpu > 60% for 2 cycles then alert
+if total cpu > 80% for 5 cycles then restart
+if total memory usage > 30% for 10 cycles then alert
+#if mem > 2000 MB for 5 cycles then stop
+
+if failed unixsocket /run/php/php7.2-fpm.sock then restart
+if 5 restarts within 10 cycles then timeout
+
+======Process 'redis-server'======
+
+check process redis-server with pidfile "/var/run/redis/redis-server.pid"
+start program = "/etc/init.d/redis-server start"
+stop program = "/etc/init.d/redis-server stop"
+# if totalmem > 100 Mb then alert
+if cpu usage > 95% for 3 cycles then restart
+if failed host 127.0.0.1 port 6379 then restart
+if 3 restarts within 5 cycles then timeout
+
+======Process 'sphinxsearch'======
+
+check process sphinxsearch with pidfile "/home/ubuntu/public_html/var/sphinx/searchd.pid"
+start program = "/etc/init.d/sphinxsearch start"
+stop program = "/etc/init.d/sphinxsearch stop"
+# if failed port 9312 then restart
+# if 3 restarts within 5 cycles then alert
+
+
+======System 'server.anhosefittings.com'======
+
+check system $HOST
+if loadavg (5min) > 3 then alert
+if loadavg (15min) > 2 then alert
+if memory usage > 75% then alert
+if swap usage > 65% then alert
+if cpu usage (user) > 80% then alert
+if cpu usage (system) > 30% then alert
+if cpu usage (wait) > 20% then alert
+
+======Filesystem 'rootfs'======
+
+check filesystem rootfs with path / #Alert if low on disk space.
+if space usage > 90% for 5 cycles then alert
+
+======Remote Host 'aws-rds'====== > This process is failing
+
+check host aws-rds with address anhosefittings.com
+if failed
+host magento2.c94vofvjn07d.us-east-1.rds.amazonaws.com
+port 3306
+protocol mysql
+username "magento2"
+password "mAg##18969"
+then alert
+
+

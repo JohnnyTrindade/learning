@@ -1,0 +1,151 @@
+Monit 5.25.1 uptime: 131d 17h 58m
+
+Process 'nginx'
+status                       OK
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+pid                          22317
+parent pid                   1
+uid                          0
+effective uid                0
+gid                          0
+uptime                       96d 1h 4m
+threads                      1
+children                     2
+cpu                          0.0%
+cpu total                    0.1%
+memory                       0.2% [12.0 MB]
+memory total                 0.5% [39.9 MB]
+security attribute           unconfined
+disk read                    0 B/s [619.9 MB total]
+disk write                   0 B/s [3.2 GB total]
+port response time           1.082 s to www.anhosefittings.com:443/catalogsearch/result/?q=fitting type TCP/IP using TLS (certificate valid for 84 days) protocol HTTP
+port response time           73.177 ms to www.anhosefittings.com:443/ type TCP/IP using TLS (certificate valid for 84 days) protocol HTTP
+port response time           1.306 ms to www.anhosefittings.com:80/ type TCP/IP protocol HTTP
+data collected               Wed, 01 Jul 2020 13:59:34
+
+File 'nginx-error'
+status                       OK
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+permission                   640
+uid                          33
+gid                          4
+size                         158.0 kB
+access timestamp             Wed, 01 Jul 2020 13:57:32
+change timestamp             Wed, 01 Jul 2020 13:56:02
+modify timestamp             Wed, 01 Jul 2020 13:56:02
+content match                no
+data collected               Wed, 01 Jul 2020 13:59:33
+
+Process 'php-fpm'
+status                       OK
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+pid                          8046
+parent pid                   1
+uid                          0
+effective uid                0
+gid                          0
+uptime                       92d 0h 1m
+threads                      1
+children                     8
+cpu                          0.0%
+cpu total                    2.8%
+memory                       0.3% [24.5 MB]
+memory total                 17.5% [1.4 GB]
+security attribute           unconfined
+disk read                    0 B/s [670.9 MB total]
+disk write                   0 B/s [932.0 MB total]
+unix socket response time    0.047 ms to /run/php/php7.2-fpm.sock type TCP protocol DEFAULT
+data collected               Wed, 01 Jul 2020 13:59:33
+
+Process 'redis-server'
+status                       OK
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+pid                          20120
+parent pid                   1
+uid                          112
+effective uid                112
+gid                          116
+uptime                       68d 22h 45m
+threads                      4
+children                     0
+cpu                          0.1%
+cpu total                    0.1%
+memory                       1.6% [126.8 MB]
+memory total                 1.6% [126.8 MB]
+security attribute           unconfined
+disk read                    0 B/s [8.6 MB total]
+disk write                   0 B/s [929.7 GB total]
+port response time           0.089 ms to 127.0.0.1:6379 type TCP/IP protocol DEFAULT
+data collected               Wed, 01 Jul 2020 13:59:33
+
+Process 'sphinxsearch'
+status                       OK
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+pid                          11966
+parent pid                   11965
+uid                          1000
+effective uid                1000
+gid                          1000
+uptime                       6d 18h 33m
+threads                      7
+children                     0
+cpu                          0.1%
+cpu total                    0.1%
+memory                       3.5% [279.7 MB]
+memory total                 3.5% [279.7 MB]
+security attribute           unconfined
+disk read                    0 B/s [9.3 MB total]
+disk write                   0 B/s [1.7 GB total]
+data collected               Wed, 01 Jul 2020 13:59:33
+
+System 'server.anhosefittings.com'
+status                       OK
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+load average                 [0.54] [0.46] [0.42]
+cpu                          7.8%us 1.8%sy 0.0%wa
+memory usage                 1.4 GB [18.2%]
+swap usage                   0 B [0.0%]
+uptime                       131d 18h 0m
+boot time                    Thu, 20 Feb 2020 20:01:20
+data collected               Wed, 01 Jul 2020 13:59:33
+
+Filesystem 'rootfs'
+status                       OK
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+filesystem type              ext4
+filesystem flags             rw,relatime,discard,data=ordered
+permission                   755
+uid                          0
+gid                          0
+block size                   4 kB
+space total                  53.3 GB (of which 0.0% is reserved for root user)
+space free for non superuser 30.6 GB [57.5%]
+space free total             30.6 GB [57.5%]
+inodes total                 7040000
+inodes free                  5966999 [84.8%]
+read                         0 B/s [106.6 GB total], 0.0 reads/s [8171204 reads total]
+write                        370.9 kB/s [2.0 TB total], 5.3 writes/s [43856114 writes total]
+service time                 0.144ms/operation (of which read 0.000ms, write 0.144ms)
+data collected               Wed, 01 Jul 2020 13:59:33
+
+Remote Host 'aws-rds'
+status                       Connection failed
+monitoring status            Monitored
+monitoring mode              active
+on reboot                    start
+port response time           FAILED to [magento2.c94vofvjn07d.us-east-1.rds.amazonaws.com]:3306 type TCP/IP protocol MYSQL
+data collected               Wed, 01 Jul 2020 13:59:33
