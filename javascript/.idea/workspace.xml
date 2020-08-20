@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bf64f47-fff8-4f6f-bd54-e087e03f3436" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/javascript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditional_switch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input_output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operadores.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repeat_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/variavel_numerico.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1g1aKWvqEwLatflnBSwEEAQbYOp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../avancando-javascript" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.splitter.proportion" value="0.26289684" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.function.html">
+    <configuration name="conditional_switch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript/conditional_switch.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="function.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript/function.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="repeat_for.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript/repeat_for.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="repeat.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript/repeat.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="simple_calculator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javascript/simple_calculator.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.function.html" />
+        <item itemvalue="JavaScript Debug.repeat_for.html" />
+        <item itemvalue="JavaScript Debug.repeat.html" />
+        <item itemvalue="JavaScript Debug.conditional_switch.html" />
+        <item itemvalue="JavaScript Debug.simple_calculator.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf64f47-fff8-4f6f-bd54-e087e03f3436" name="Default Changelist" comment="" />
+      <created>1597284489494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597284489494</updated>
+      <workItem from="1597284490856" duration="8605000" />
+      <workItem from="1597355541339" duration="4557000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2861" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597289548708">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2861" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1597289548708" />
+    <state x="2497" y="160" key="FileChooserDialogImpl" timestamp="1597360363958">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2497" y="160" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1597360363958" />
+    <state width="2534" height="280" key="GridCell.Tab.0.bottom" timestamp="1597285338935">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2534" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1597285338935" />
+    <state width="2534" height="280" key="GridCell.Tab.0.center" timestamp="1597285338935">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2534" height="280" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1597285338935" />
+    <state width="2534" height="280" key="GridCell.Tab.0.left" timestamp="1597285338935">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2534" height="280" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1597285338935" />
+    <state width="2534" height="280" key="GridCell.Tab.0.right" timestamp="1597285338935">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2534" height="280" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1597285338935" />
+    <state x="2621" y="98" key="SettingsEditor" timestamp="1597358205451">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2621" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1597358205451" />
+  </component>
+</project>
