@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="538f984f-fad8-4654-8654-d319035b41b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/carrinho-de-compras-procedural.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carrinho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carrinho/funcoes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/conexao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/consultas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gerenciar_carrinho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/.idea/php-procedural.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/anonimo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/escopo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/escopo_anonimo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/funcao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/parametro_anonimo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/parametros.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/parametros_opcionais.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/recursivo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/referencia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/retorno.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/scalar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/tipo_retorno.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancando-javascript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../avancando-javascript/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancando-javascript/course/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../avancando-javascript/course/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancando-javascript/course/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../avancando-javascript/course/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
+  <component name="ProjectId" id="1jSpnzkwf49t5M5LIvuduS6CAPR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="538f984f-fad8-4654-8654-d319035b41b2" name="Default Changelist" comment="" />
+      <created>1603807517912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603807517912</updated>
+      <workItem from="1603807519018" duration="3390000" />
+      <workItem from="1603879312260" duration="7280000" />
+      <workItem from="1603967535554" duration="6495000" />
+      <workItem from="1604091172283" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="587" y="96" key="#PHP" timestamp="1603807596794">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="587" y="96" key="#PHP/0.0.1920.1080/1920.0.2560.1080@0.0.1920.1080" timestamp="1603807596794" />
+    <state x="748" y="444" key="NewPhpFileDialog" timestamp="1603893416373">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="444" key="NewPhpFileDialog/0.0.1920.1080/1920.0.2560.1080@0.0.1920.1080" timestamp="1603893416373" />
+    <state x="336" y="97" key="SettingsEditor" timestamp="1603889112474">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="336" y="97" key="SettingsEditor/0.0.1920.1080/1920.0.2560.1080@0.0.1920.1080" timestamp="1603889112474" />
+  </component>
+</project>

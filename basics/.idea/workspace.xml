@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbbb5785-009a-4cce-b6a4-ae20c9222e29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/.idea/carrinho-de-compras-procedural.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/carrinho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/carrinho/funcoes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/database/conexao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/database/consultas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/gerenciar_carrinho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../carrinho-de-compras-procedural/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../google-id-issue/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../google-id-issue/.idea/google-id-issue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../google-id-issue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../google-id-issue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../google-id-issue/test-01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../google-id-issue/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/.idea/php-procedural.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/anonimo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/escopo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/escopo_anonimo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/funcao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/parametro_anonimo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/parametros.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/parametros_opcionais.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/recursivo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/referencia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/retorno.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/scalar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php-procedural/tipo_retorno.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancando-javascript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../avancando-javascript/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancando-javascript/course/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../avancando-javascript/course/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../avancando-javascript/course/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../avancando-javascript/course/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1jpn6ofH957rQtQfvGZXNu6fKh8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Work/production_logs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbbb5785-009a-4cce-b6a4-ae20c9222e29" name="Default Changelist" comment="" />
+      <created>1604509728139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604509728139</updated>
+      <workItem from="1604509729184" duration="2349000" />
+      <workItem from="1605010218829" duration="134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1605010352228">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.2560.1080@0.0.1920.1080" timestamp="1605010352228" />
+  </component>
+</project>

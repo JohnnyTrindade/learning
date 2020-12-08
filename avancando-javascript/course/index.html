@@ -16,24 +16,35 @@
             <label for="desc"></label>
         </div>
         <div class="form-group">
-            <input type="number" class="form-control" id="amount" placeholder="amount">
+            <input class="form-control" id="amount" placeholder="amount">
             <label for="amount"></label>
         </div>
         <div class="form-group">
-            <input type="number" class="form-control" id="value" placeholder="value">
+            <input class="form-control" id="value" placeholder="value">
             <label for="value"></label>
         </div>
         <span id="btnUpdate" style="display: none">
+            <span id="inputIDupdate"></span>
             <button onclick="updateData();" class="btn btn-primary">Save</button>
             <button onclick="resetForm();" class="btn btn-primary">Cancel</button>
         </span>
-        <button id="btnAdd" onclick="addData();" class="btn btn-primary">Add</button>
+        <span id="btnAdd">
+            <button onclick="addData();" class="btn btn-primary">Add</button>
+            <button onclick="resetForm();" class="btn btn-primary">Reset</button>
+            <button onclick="deleteList();" class="btn btn-primary">Delete list</button>
+        </span>
     </div>
+    <div id="errors" style="display: none"></div>
     <table id="list-table" class="table">
 
     </table>
 </div>
 
+<nav class="navbar navbar-nav navbar-dark">
+    <div class="container">
+        <h4 class="text-center text-success">Total: <span id="totalValue">$ 0,00</span></h4>
+    </div>
+</nav>
 
 
 

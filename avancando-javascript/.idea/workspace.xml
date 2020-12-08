@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cf5fd9-4438-4020-a305-7c339d7580b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/avancando-javascript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/js/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/.idea/javascript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/conditional.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/conditional_switch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/function.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/input_output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/operadores.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/repeat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/repeat_for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/simple_calculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/string.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javascript/variavel_numerico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/course/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/course/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/course/js/main.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1g447u0CB3Qbiqp6iWmmsYQep2f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,14 +39,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../phaser" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="settings.editor.splitter.proportion" value="0.26289684" />
   </component>
   <component name="RecentsManager">
@@ -102,6 +75,15 @@
       <workItem from="1597360367359" duration="321000" />
       <workItem from="1597458306529" duration="615000" />
       <workItem from="1597877445306" duration="8531000" />
+      <workItem from="1598038594586" duration="13000" />
+      <workItem from="1598041850875" duration="1565000" />
+      <workItem from="1598047313959" duration="1250000" />
+      <workItem from="1598308797769" duration="5266000" />
+      <workItem from="1598316069767" duration="3879000" />
+      <workItem from="1598395209508" duration="1351000" />
+      <workItem from="1598485465824" duration="670000" />
+      <workItem from="1598919729581" duration="3825000" />
+      <workItem from="1599096139152" duration="33000" />
     </task>
     <servers />
   </component>
@@ -112,6 +94,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2261" y="-10" width="1736" height="896" maximized="true" key="DiffContextDialog" timestamp="1598317279906">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2261" y="-10" width="1736" height="896" maximized="true" key="DiffContextDialog/0.0.1920.1080/1920.0.2560.1080@0.0.1920.1080" timestamp="1598317279906" />
+    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1599096170017">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.2560.1080@0.0.1920.1080" timestamp="1599096170017" />
+    <state x="336" y="97" key="SettingsEditor" timestamp="1598920021082">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="336" y="97" key="SettingsEditor/0.0.1920.1080/1920.0.2560.1080@0.0.1920.1080" timestamp="1598920021082" />
+    <state x="2012" y="92" width="2376" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598461566225">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2012" y="92" width="2376" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080/1920.0.2560.1080@1920.0.2560.1080" timestamp="1598461566225" />
     <state x="2779" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1597458608160">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
